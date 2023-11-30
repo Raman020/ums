@@ -1,5 +1,4 @@
-
-'''import pickle
+import pickle
 a='ram'
 r=pickle.dumps(a)
 print(r)#pickled representation
@@ -10,7 +9,7 @@ print(f) #unpickled representation'''
 import pickle
 
 f1=open('a2.txt','wb')
-r=pickle.dump('ram',f1)
+r=pickle.dump('hello python',f1)
 f1.close()
 
 f1=open('a2.txt','rb')
